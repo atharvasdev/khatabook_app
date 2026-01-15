@@ -21,7 +21,7 @@ class _AddCustomerScreenState extends State<AddCustomerScreen> {
       id: DateTime.now().millisecondsSinceEpoch.toString(),
       name: _nameController.text,
       // phone: _phoneController.text,
-      balance: 0.0, // Initializing balance for your Khatabook logic
+      balance: 0.0, 
     );
 
     customers.add(newCustomer);
